@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+    background-image: url("img/bg.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+/*css reset*/
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#home{
+   background-color: #59405c00;
+}
+
+#about{
+     background-color: #ED6663;
+}
+
+#product{
+     background-color: #B52B65;
+}
+
+#pricing{
+     background-color: #3C2C3E;
+}
+
+#contact{
+     background-color: #B52B65;
+}
+
+/* changing names start */
+#spin {
+    color:rgb(250, 112, 0);
+  }
+  #spin:after {
+    content:"";
+    animation: spin 7s linear infinite;
+  }
+  @keyframes spin {
+    0% { content:"Asian Wonders";}
+
+    20% { content:"asiyanın möcüzələri";}
+
+    40% { content:"아시아의 불가사의";}
+
+    60% { content:"亚洲奇观";}
+
+    80% { content: "สิ่งมหัศจรรย์แห่งเอเชีย"; }
+
+    100% { content: "عجائب آسيوية"; }
+  }
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 150px;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+}
+p1{
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 30px;
+    
+    
+}
+/* end of changing names */
+
+h2{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 100px;
+}
+p2{
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -70%);
+    color: #fff;
+    font-size: 20px;
+    width: 40%;
+}
+h3{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 100px;
+}
+h4{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 100px;
+}
+h5{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 100px;
+}
+
+
+
+
+
+
