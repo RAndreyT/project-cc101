@@ -1,3 +1,6 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap'); 
+ @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); 
+
 *{
     margin: 0;
     padding: 0;
@@ -53,6 +56,18 @@ section{
     height: 100vh;
     position: relative;
 }
+#culture{
+    width: 100%;
+    height: 150vh;
+    position: relative;
+}
+#footer{
+    background-color: #c810e0;
+    position: relative;
+    text-align: center;
+    height: 15vh;
+    top: 20%;
+}
 
 #home{
    background-color: #59405c00;
@@ -62,17 +77,15 @@ section{
      background-color: #ED6663;
 }
 
-#product{
+#Parts{
      background-color: #B52B65;
 }
 
-#pricing{
+#culture{
      background-color: #3C2C3E;
 }
 
-#contact{
-     background-color: #B52B65;
-}
+
 
 /* changing names start */
 #spin {
@@ -101,9 +114,10 @@ h1{
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    font-size: 150px;
+    font-size: 100px;
     text-overflow: ellipsis; 
     white-space: nowrap;
+    font-family: 'Kaushan Script', cursive;
 }
 p1{
     position: absolute;
@@ -117,50 +131,107 @@ p1{
 }
 /* end of changing names */
 
-h2{
+.about{
+    font-family: 'Kaushan Script', cursive;
     position: absolute;
-    top: 25%;
-    left: 20%;
+    top: 22%;
+    left: 27%;
     transform: translate(-50%, -50%);
     color: #fff;
     font-size: 100px;
 }
 p2{
+    font-family: 'Raleway', sans-serif;
     position: absolute;
-    top: 55%;
-    left: 35%;
+    top: 75%;
+    left: 27%;
+    transform: translate(-50%, -70%);
+    color: #fff;
+    font-size: 17px;
+    width: 40%;
+}
+img{
+    display:block;
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    transform: 1s smooth;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+
+
+
+
+.parts{
+    font-family: 'Kaushan Script', cursive;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 100px;
+}
+p3{
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 45%;
+    left: 50%;
     transform: translate(-50%, -70%);
     color: #fff;
     font-size: 20px;
-    width: 40%;
+    width: 60%;
+    text-align: center;
 }
-h3{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 100px;
-}
-h4{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 100px;
-}
-h5{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 100px;
+.flag{
+    position: relative;
+    top: 45%;
+    display: block;
+  margin: 0 auto;
 }
 
 
 
 
+.culture{
+  font-family: 'Kaushan Script', cursive;
+  position: absolute;
+  top: 19%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 100px;
+}
 
+.video{
+position: relative;
+  top: 35%;
+  display: block;
+margin: 0 auto;
 
+}
+p4{
+    font-family: 'Raleway', sans-serif;
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  color: #fff;
+  font-size: 20px;
+  width: 70%;
+  text-align: center;
+}
+
+.made{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.credit{
+    font-family: 'Raleway', sans-serif;
+    display: relative;
+    font-size: 20px;
+    margin-top: 10px;
+}

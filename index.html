@@ -6,6 +6,11 @@
     <title>Asian Wonders</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -19,36 +24,96 @@
             <ul id="menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Asia</a></li>
-                <li><a href="#product">Parts of Asia</a></li>
-                <li><a href="#pricing">Cultures</a></li>
-                <li><a href="#contact">Index</a></li>
+                <li><a href="#Parts">Parts of Asia</a></li>
+                <li><a href="#culture">Cultures</a></li>
             </ul>
         </header>
     </section>
 
     <section id="about">
-        <h2>Asian history</h2>
-        <p2>South-eastern Asia or SEA, is the geographical south-eastern region of Asia, 
-            consisting of the regions that are situated south of mainland China, east of the Indian subcontinent,
-             and north-west of mainland Australia.    
-             Southeast Asia is bordered to the north by East Asia, to the west by 
-             South Asia and the Bay of Bengal, to the east by Oceania and the Pacific Ocean, 
-             and to the south by Australia and the Indian Ocean. <br> <br>
-             Apart from the British Indian Ocean Territory and two out of 26 atolls of Maldives in South Asia,
-              Maritime Southeast Asia is the only other 
-             subregion of Asia that lies partly within the Southern Hemisphere. Mainland Southeast Asia is completely in the Northern Hemisphere. 
-             East Timor and the southern portion of Indonesia are the only parts that are south of the Equator.</p2>
+        <h2 class="about">Asian history</h2>
+        <p2>The history of Asia can be seen as the collective history of several distinct peripheral 
+            coastal regions such as East Asia, South Asia, Southeast Asia and the Middle East linked 
+            by the interior mass of the Eurasian steppe. See History of the Middle East and History of the 
+            Indian Subcontinent for further details.
+            <br><br>
+            The coastal periphery was the home to some of the world's earliest known civilizations and 
+            religions, with each of the three regions developing early civilizations around fertile river valleys. 
+            These valleys were fertile because the soil there was rich and could bear many root crops. 
+            The civilizations in Mesopotamia, India, and China shared many similarities and l
+            ikely exchanged technologies and ideas such as mathematics and the wheel. Other notions 
+            such as that of writing likely developed individually in each area. Cities, states, and 
+            then empires developed in these lowlands.
+            <br><br>         
+            The steppe region had long been inhabited by mounted nomads, and from the central steppes, 
+            they could reach all areas of the Asian continent. The northern part of the continent, covering much 
+            of Siberia was also inaccessible to the steppe nomads due to the dense forests and the tundra. These 
+            areas in Siberia were very sparsely populated.</p2>
+            
+    <img src="img/1.jpg" id="image">
+    <script type="text/javascript">
+        let image = document.getElementById('image');
+        let images = ['img/1.jpg','img/2.jpg','img/3.jpg']
+        setInterval(function(){
+            let random = Math.floor(Math.random() * 3);
+            image.src = images[random];
+        }, 2000);
+    </script>
+    </section>
+    
+    <section id="Parts">
+        <h1 class="parts">Parts of Asia</h1>
+            <p3>
+                The 5 major regions of Asia are Southeast Asia, East Asia, Central Asia, South Asia, and Southwest Asia 
+                (also known as the Middle East). 
+                Some geography sources will also include North Asia as the 6th region, but we chose to simply make our 
+                Russia page the de facto page for North Asia because it is essentially the only country in the region.
+            </p3>
+
+        <div class="flag">
+            <center>
+                <video width="500" height="400" autoplay loop muted>
+                <source src="img/flags.mp4" type="video/mp4">
+                </video>
+            </center>
+        </div>
+    </section>
+    
+
+
+    <section id="culture">
+        <h1 class="culture">Asian Culture</h1>
+        <div class="video">
+            <center>
+                <video width="700" height="700" autoplay loop muted>
+                <source src="img/video.mp4" type="video/mp4">
+                </video>
+            </center>
+        </div>
+
+
+        <p4>
+            The culture of Asia encompasses the collective and diverse customs and 
+            traditions of art, architecture, music, literature, lifestyle, philosophy,
+             politics and religion that have been practiced and maintained by the numerous 
+             ethnic groups of the continent of Asia since prehistory. Identification of a specific
+              culture of Asia or universal elements among the colossal diversity that has emanated 
+              from multiple cultural spheres and three of the four ancient River valley civilizations 
+              is complicated. However, the continent is commonly divided into six geographic sub-regions, 
+              that are characterized by perceivable commonalities, like culture, religion, language and 
+              relative ethnic homogeneity. These regions are Central Asia, East Asia, North Asia, South Asia,
+               Southeast Asia and West Asia.
+        </p4>
     </section>
 
 
-
-    
-    <section id="product"><h3>Parts of Asia</h3></section>
-    <section id="pricing"><h4>Cultures</h4></section>
-    <section id="contact"><h5>Index</h5></section>
+    <div id="footer">
+        <h class="made">Made By</h>
+        <p class="credit">Rances Tumbaga & Diane Derutas</p>
+        </div>
+     </div>
 
 </body>
-
 </html>
 
 
